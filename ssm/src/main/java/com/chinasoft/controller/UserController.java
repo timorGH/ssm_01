@@ -25,4 +25,10 @@ public class UserController {
         modelAndView.setViewName("success");
         return modelAndView;
     }
+	
+	@RequestMapping("insertUser")
+	public ModelAndView insertUser(){
+		ModelAndView modelAndView = new ModelAndView();
+		return modelAndView;
+	}
 }
